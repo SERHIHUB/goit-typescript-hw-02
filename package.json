@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "author": "",
+  "author": "Serhii Krasovskyi <chokorik@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "@web/dev-server": "^0.4.4"
   }
 }
